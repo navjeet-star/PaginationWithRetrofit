@@ -136,6 +136,7 @@ public class PaginationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
     }
 
     public void clear() {
+
         isLoadingAdded = false;
         while (getItemCount() > 0) {
             remove(getItem(0));
