@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         rv = (RecyclerView) findViewById(R.id.main_recycler);
-   //     progressBar = (ProgressBar) findViewById(R.id.main_progress);
+   //     progressBar = (ProgressBar) findViewById(R.id.main_progress);sss
         mShimmerViewContainer = findViewById(R.id.shimmer_view_container);
 
         adapter = new PaginationAdapter(this);
