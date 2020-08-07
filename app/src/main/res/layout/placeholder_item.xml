@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        >
+
+        <View
+            android:id="@+id/movie_year"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="50dp"
+            android:layout_height="8dp"
+            android:alpha="0.38"
+            android:maxLines="1"
+            android:textStyle="bold"
+            tools:text="2009 | EN"
+            android:background="@color/placeholder_bg"
+            android:layout_gravity="end"/>
+
+        <View
+            android:id="@+id/movie_title"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:maxLines="1"
+            tools:text="Movie Title"
+            android:background="@color/placeholder_bg"
+            android:layout_marginTop="5dp"/>
+
+        <View
+            android:id="@+id/movie_desc"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:background="@color/placeholder_bg"
+            android:layout_marginTop="5dp"
+            tools:text="Nowadays, user engagement is considered one of the most important metrics for the success of your app"/>
+
+    </LinearLayout>
+</FrameLayout>
